@@ -1,5 +1,5 @@
-sudo dnf update
-sudo dnf install java-21-openjdk-devel
+sudo dnf update -y
+sudo dnf install java-21-openjdk-devel -y
 
 ./config-java.sh
 
